@@ -1,0 +1,106 @@
+/* table > tr (줄) >td (칸) */
+
+* {
+  margin: 0%;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  width: 1000px;
+  margin: 0 auto;
+}
+h1 {
+  margin-bottom: 1rem 0;
+}
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+  margin-bottom: 3rem;
+}
+
+/* 테이블1시작 */
+.tbl-01 td,
+.tbl-01 th {
+  border: 1px solid #ccc;
+  padding: 8px;
+}
+.tbl-01 th {
+  background: #efefef;
+}
+/* 테이블2시작 */
+.tbl-02 td,
+.tbl-02 th {
+  border: 1px solid #ccc;
+  padding: 8px;
+}
+/* .tbl-02 th {
+  background-color: #efefef;
+} */
+.tbl-02 tr:nth-child(even) {
+  background: #efefef;
+}
+/* 테이블3 시작 */
+.tbl-03 td,
+.tbl-03 th {
+  border: 1px solid #ccc;
+  padding: 8px;
+}
+
+.tbl-03 th {
+  background: #efefef;
+}
+.tbl-03 tr:nth-child(1) th {
+  background: #666;
+  color: #fff;
+}
+/* 테이블4  */
+
+.tbl-04 {
+  border-top: 2px solid #666;
+}
+.tbl-04 td,
+.tbl-04 th {
+  border-bottom: 1px solid #ccc;
+  padding: 8px;
+}
+
+.tbl-04 th {
+  background: #efefef;
+}
+/* 테이블5 border-left .양사이는 선없애는법  */
+.tbl-05 td,
+.tbl-05 th {
+  border: 1px solid #ccc;
+  border-left: none;
+  padding: 8px;
+  text-align: center;
+}
+.tbl-05 th:last-child,
+.tbl-05 td:last-child {
+  border-right: none;
+}
+.tbl-05 th {
+  background: #efefef;
+}
+
+/* 테이블6시작 */
+.tbl-06 td,
+.tbl-06 th {
+  border: 1px solid #ccc;
+  padding: 8px;
+}
+.tbl-06 th {
+  background: #efefef;
+}
+
+/* 테이블7시작 */
+.tbl-07 td,
+.tbl-07 th {
+  border: 1px solid #ccc;
+  padding: 8px;
+}
+.tbl-07 th {
+  background: #efefef;
+}
